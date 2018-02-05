@@ -1,5 +1,9 @@
 # cs193p-2017fall
 
+Solution to programming project.
+
+
+
 - [x] Assigment1: concentration
 
 
