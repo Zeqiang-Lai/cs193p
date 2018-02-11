@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
    
     @IBAction func deal3MoreCard(_ sender: UIButton) {
-        var isAddNew = false
+        var isAddNew = true
 //        for index in game.cardsSelected.indices {
 //            if !game.cardsOnTable[game.cardsSelected[index]].isMatch {
 //                isAddNew = true
