@@ -111,6 +111,6 @@ struct GameSet
                 isSet = false
             }
         }
-        return true
+        return isSet
     }
 }

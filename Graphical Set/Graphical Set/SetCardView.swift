@@ -22,7 +22,7 @@ class SetCardView: UIView {
         
         for i in 0..<number.rawValue+1 {
             let rect = CGRect(x: X[number.rawValue][i], y: Y[number.rawValue][i], width: widthOfShape, height: heightOfShape)
-            let path = UIBezierPath(ovalIn: rect)
+            let path = UIBezierPath(roundedRect: rect, cornerRadius: cornerRadiusOfShape)
             
             shapeColor.setStroke()
             path.lineWidth = lineWidthOfShape
